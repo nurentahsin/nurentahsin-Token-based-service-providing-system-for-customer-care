@@ -1,0 +1,8 @@
+Token no based service providing system for a customer is the system where customer is given a token number from a token slip machine and customers take the service according to token number . In banks 
+and many other service centers we observe this kind of operating system where the given number of token is shown simultaneously and customers take the service from that display booth. Here this project is done 
+by a microcontroller named ATmega 32 with two 7-segment displays . The token based system is a time consuming system where a customer does not need to wait for a long time in the same queue rather than 
+the customer service providers can call if the queue is free.
+A token number display system is where customers will be provided service according to their display number . Here the numbers will be shown in 7 segment displays simultaneously. We build the circuit 
+using ATmega32 , Push button, resistor and 7 seven display to see how our the system works . Basically we designed the system in such way that if one booth is busy then another booth can work simultaneously 
+so that people don’t need to wait for long time .We used interrupts to make our system work . Interrupt is a method of giving attention to a task which is not scheduled as an usual task .If we want to break the flow and attend a different task then we use interrupt . Whenever such situation occurs ,microcontroller raises a flag to the corresponding task. We 
+used a 7 segment display which can show numbers from 0-9. So we designed a token number display system in such a way that we can use our interrupts and our 7 segment display properly.
